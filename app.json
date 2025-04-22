@@ -3,7 +3,7 @@
     "name": "cms-tv-agent",
     "slug": "cms-tv-agent",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
@@ -12,9 +12,13 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.yourname.cmstvagent",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "tv": {
+        "leanbackSupport": true
       }
     },
     "web": {
